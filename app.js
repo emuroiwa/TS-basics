@@ -18,3 +18,8 @@ var Color;
 })(Color || (Color = {}));
 var myColor = Color.Black;
 console.log(myColor);
+//Type any
+var Car = 'haya';
+console.log(Car);
+Car = 3;
+//type alias

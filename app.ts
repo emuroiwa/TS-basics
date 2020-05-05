@@ -19,5 +19,14 @@ enum Color {
     Orange = 2,
 }
  let myColor : Color = Color.Black;
- console.log(myColor)
+ console.log(myColor);
+
+ //Type any
+
+ let Car : any = 'haya';
+ console.log(Car);
+ Car = 3;
+
+
+ //type alias
 
